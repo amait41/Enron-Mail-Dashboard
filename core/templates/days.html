@@ -1,0 +1,103 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Days {% endblock title %}
+
+{% block content %}
+
+    <!-- Header -->
+    <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
+      <div class="container-fluid">
+        <div class="header-body">
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- Settings -->
+    <div class="container-fluid mt--7">
+
+      <div class="row">
+        <div class="col">
+          <div class="card bg-secondary shadow">
+            <form action="/days" method="get">
+              <div class="card-header bg-white border-0">
+                <div class="row align-items-center">
+                  <div class="col-8">
+                    <h3 class="mb-0">Settings</h3>
+                  </div>
+                  <div class="col-4 text-right">
+                    <input type="submit" class="btn btn-sm btn-primary ml-4" value="Refresh">
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="pl-lg-0">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="form-group">
+                        <label class="form-control-label" for="start_date">Start date</label>
+                        <input type="date" id="start_date" class="form-control form-control-alternative"
+                        name="start_date" value="{{ start_date }}">
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="form-group">
+                        <label class="form-control-label" for="end_date">End date</label>
+                        <input type="date" id="end_date" class="form-control form-control-alternative" name="end_date" value="{{ end_date }}">
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="form-group">
+                        <label class="form-control-label" for="threshold">Threshold</label>
+                        <input type="text" id="threshold" class="form-control form-control-alternative" name="threshold" 
+                        value="{{ threshold }}">
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="form-group">
+                        <label class="form-control-label" for="threshold"># lines</label>
+                        <input type="text" id="lines" class="form-control form-control-alternative" name="lines" 
+                        value="{{ lines }}">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <h3 class="mt-0">Days with the most email exchanges</h3>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">Days</th>
+                    <th scope="col">Number of emails</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for day in days %}
+                  <tr>
+                    <td> {{ day.time }} </td>
+                    <td> {{ day.dcount }} </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% include "includes/footer.html" %}
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employee PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<employees>
+  <employee>
+    <lastname>Heard</lastname>
+    <firstname>Marie</firstname>
+    <email address="marie.heard@enron.com"/>
+      <mailbox>heard-m</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Taylor</lastname>
+    <firstname>Mark</firstname>
+    <email address="mark.e.taylor@enron.com"/>
+      <email address="mark.taylor@enron.com"/>
+      <email address="e.taylor@enron.com"/>
+      <mailbox>taylor-m</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Donoho</lastname>
+    <firstname>Lindy</firstname>
+    <email address="lindy.donoho@enron.com"/>
+      <email address="ldonoho@enron.com"/>
+      <mailbox>donoho-l</mailbox>
+      </employee>
+  <employee>
+    <lastname>Gang</lastname>
+    <firstname>Lisa</firstname>
+    <email address="lisa.gang@enron.com"/>
+      <mailbox>gang-l</mailbox>
+      </employee>
+  <employee category="CEO">
+    <lastname>Skilling</lastname>
+    <firstname>Jeffrey</firstname>
+    <email address="jeff.skilling@enron.com"/>
+      <email address="jeffrey.skilling@enron.com"/>
+      <mailbox>skilling-j</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Blair</lastname>
+    <firstname>Lynn</firstname>
+    <email address="lynn.blair@enron.com"/>
+      <email address="lynnblair@enron.com"/>
+      <mailbox>blair-l</mailbox>
+      </employee>
+  <employee>
+    <lastname>Ward</lastname>
+    <firstname>Kim</firstname>
+    <email address="kim.ward@enron.com"/>
+      <email address="kward@enron.com"/>
+      <mailbox>ward-k</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Symes</lastname>
+    <firstname>Kate</firstname>
+    <email address="kate.symes@enron.com"/>
+      <email address="ksymes@enron.com"/>
+      <mailbox>symes-k</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Mann</lastname>
+    <firstname>Kay</firstname>
+    <email address="kay.mann@enron.com"/>
+      <mailbox>mann-k</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Holst</lastname>
+    <firstname>Keith</firstname>
+    <email address="keith.holst@enron.com"/>
+      <email address="kholst@enron.com"/>
+      <mailbox>holst-k</mailbox>
+      </employee>
+  <employee category="CEO">
+    <lastname>Lay</lastname>
+    <firstname>Kenneth</firstname>
+    <email address="kenneth.lay@enron.com"/>
+      <email address="kenneth_lay@enron.com"/>
+      <mailbox>lay-k</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Hyatt</lastname>
+    <firstname>Kevin</firstname>
+    <email address="kevin.hyatt@enron.com"/>
+      <email address="kevin_hyatt@enron.com"/>
+      <email address="khyatt@enron.com"/>
+      <mailbox>hyatt-k</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Quenet</lastname>
+    <firstname>Joe</firstname>
+    <email address="joe.quenet@enron.com"/>
+      <email address="jquenet@enron.com"/>
+      <mailbox>quenet-j</mailbox>
+      </employee>
+  <employee category="President">
+    <lastname>Kitchen</lastname>
+    <firstname>Louise</firstname>
+    <email address="louise.kitchen@enron.com"/>
+      <email address="lkitchen@enron.com"/>
+      <mailbox>kitchen-l</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Presto</lastname>
+    <firstname>Kevin</firstname>
+    <email address="kevin.m.presto@enron.com"/>
+      <email address="m..presto@enron.com"/>
+      <email address="kevin.presto@enron.com"/>
+      <mailbox>presto-k</mailbox>
+      </employee>
+  <employee>
+    <lastname>Taylor</lastname>
+    <firstname>Liz</firstname>
+    <email address="liz.taylor@enron.com"/>
+      <email address="liz.m.taylor@enron.com"/>
+      <email address="m..taylor@enron.com"/>
+      <mailbox>whalley-l</mailbox>
+      </employee>
+  <employee>
+    <lastname>Watson</lastname>
+    <firstname>Kimberly</firstname>
+    <email address="kimberly.watson@enron.com"/>
+      <mailbox>watson-k</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Campbell</lastname>
+    <firstname>Larry</firstname>
+    <email address="larry.f.campbell@enron.com"/>
+      <email address="larry.campbell@enron.com"/>
+      <email address="f..campbell@enron.com"/>
+      <mailbox>campbell-l</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>May</lastname>
+    <firstname>Larry</firstname>
+    <email address="larry.may@enron.com"/>
+      <mailbox>may-l</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Stepenovitch</lastname>
+    <firstname>Joe</firstname>
+    <email address="joe.stepenovitch@enron.com"/>
+      <email address="joe_stepenovitch@enron.com"/>
+      <mailbox>stepenovitch-j</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Ruscitti</lastname>
+    <firstname>Kevin</firstname>
+    <email address="kevin.ruscitti@enron.com"/>
+      <mailbox>ruscitti-k</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Keiser</lastname>
+    <firstname>Kam</firstname>
+    <email address="kam.keiser@enron.com"/>
+      <email address="kkeiser@enron.com"/>
+      <mailbox>keiser-k</mailbox>
+      </employee>
+  <employee>
+    <lastname>Parks</lastname>
+    <firstname>Joe</firstname>
+    <email address="joe.parks@enron.com"/>
+      <mailbox>parks-j</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Forney</lastname>
+    <firstname>John</firstname>
+    <email address="m..forney@enron.com"/>
+      <email address="john.forney@enron.com"/>
+      <mailbox>forney-j</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Arnold</lastname>
+    <firstname>John</firstname>
+    <email address="john.arnold@enron.com"/>
+      <mailbox>arnold-j</mailbox>
+      </employee>
+  <employee category="CEO">
+    <lastname>Lavorato</lastname>
+    <firstname>John</firstname>
+    <email address="lavorato@enron.com"/>
+      <email address="john.j.lavorato@enron.com"/>
+      <email address="j..lavorato@enron.com"/>
+      <mailbox>lavorato-j</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Zufferli</lastname>
+    <firstname>John</firstname>
+    <email address="john.zufferli@enron.com"/>
+      <mailbox>zufferli-j</mailbox>
+      </employee>
+  <employee category="Managing Director">
+    <lastname>Hodge</lastname>
+    <firstname>John</firstname>
+    <email address="john.hodge@enron.com"/>
+      <mailbox>hodge-j</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Griffith</lastname>
+    <firstname>John</firstname>
+    <email address="john.griffith@enron.com"/>
+      <mailbox>griffith-j</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Mckay</lastname>
+    <firstname>Jonathan</firstname>
+    <email address="jonathan.mckay@enron.com"/>
+      <mailbox>mckay-j</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Hernandez</lastname>
+    <firstname>Juan</firstname>
+    <email address="juan.hernandez@enron.com"/>
+      <mailbox>hernandez-j</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Townsend</lastname>
+    <firstname>Judy</firstname>
+    <email address="judy.townsend@enron.com"/>
+      <mailbox>townsend-j</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Schwieger</lastname>
+    <firstname>Jim</firstname>
+    <email address="jim.schwieger@enron.com"/>
+      <mailbox>schwieger-j</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Salisbury</lastname>
+    <firstname>Holden</firstname>
+    <email address="holden.salisbury@enron.com"/>
+      <mailbox>salisbury-h</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Shively</lastname>
+    <firstname>Hunter</firstname>
+    <email address="hunter.s.shively@enron.com"/>
+      <email address="s..shively@enron.com"/>
+      <email address="hunter.shively@enron.com"/>
+      <mailbox>shively-h</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Steffes</lastname>
+    <firstname>James</firstname>
+    <email address="james.d.steffes@enron.com"/>
+      <email address="d..steffes@enron.com"/>
+      <email address="james.steffes@enron.com"/>
+      <mailbox>steffes-j</mailbox>
+      </employee>
+  <employee category="In House Lawyer">
+    <lastname>Derrick</lastname>
+    <firstname>James</firstname>
+    <email address="james.derrick@enron.com"/>
+      <email address="james_derrick@enron.com"/>
+      <mailbox>derrick-j</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Tholt</lastname>
+    <firstname>Jane</firstname>
+    <email address="jane.tholt@enron.com"/>
+      <email address="jane.m.tholt@enron.com"/>
+      <email address="m..tholt@enron.com"/>
+      <mailbox>tholt-j</mailbox>
+      </employee>
+  <employee>
+    <lastname>Wolfe</lastname>
+    <firstname>Jason</firstname>
+    <email address="jason.wolfe@enron.com"/>
+      <mailbox>wolfe-j</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Williams</lastname>
+    <firstname>Jason</firstname>
+    <email address="jason.williams@enron.com"/>
+      <email address="jason.r.williams@enron.com"/>
+      <mailbox>williams-j</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Reitmeyer</lastname>
+    <firstname>Jay</firstname>
+    <email address="jay.reitmeyer@enron.com"/>
+      <mailbox>reitmeyer-j</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Dasovich</lastname>
+    <firstname>Jeff</firstname>
+    <email address="jeff.dasovich@enron.com"/>
+      <email address="jeff_dasovich@enron.com"/>
+      <email address="jeffdasovich@enron.com"/>
+      <mailbox>dasovich-j</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>King</lastname>
+    <firstname>Jeff</firstname>
+    <email address="jeff.king@enron.com"/>
+      <mailbox>king-j</mailbox>
+      </employee>
+  <employee category="President">
+    <lastname>Shankman</lastname>
+    <firstname>Jeffrey</firstname>
+    <email address="jeffrey.a.shankman@enron.com"/>
+      <email address="a..shankman@enron.com"/>
+      <email address="jeffrey.shankman@enron.com"/>
+      <mailbox>shankman-j</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Meyers</lastname>
+    <firstname>Albert</firstname>
+    <email address="albert.meyers@enron.com"/>
+      <mailbox>meyers-a</mailbox>
+      </employee>
+  <employee>
+    <lastname>Ring</lastname>
+    <firstname>Andrea</firstname>
+    <email address="andrea.ring@enron.com"/>
+      <mailbox>ring-a</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Lewis</lastname>
+    <firstname>Andrew</firstname>
+    <email address="h..lewis@enron.com"/>
+      <email address="andrew.lewis@enron.com"/>
+      <email address="andrew.h.lewis@enron.com"/>
+      <mailbox>lewis-a</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Zipper</lastname>
+    <firstname>Andy</firstname>
+    <email address="andy.zipper@enron.com"/>
+      <email address="azipper@enron.com"/>
+      <mailbox>zipper-a</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Tycholiz</lastname>
+    <firstname>Barry</firstname>
+    <email address="barry.tycholiz@enron.com"/>
+      <mailbox>tycholiz-b</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Rogers</lastname>
+    <firstname>Benjamin</firstname>
+    <email address="benjamin.rogers@enron.com"/>
+      <mailbox>rogers-b</mailbox>
+      </employee>
+  <employee>
+    <lastname>Rapp</lastname>
+    <firstname>Bill</firstname>
+    <email address="bill.rapp@enron.com"/>
+      <email address="brapp@enron.com"/>
+      <mailbox>rapp-b</mailbox>
+      </employee>
+  <employee>
+    <lastname>Williams</lastname>
+    <firstname>Bill</firstname>
+    <email address="bill.williams@enron.com"/>
+      <mailbox>williams-w3</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Mckay</lastname>
+    <firstname>Brad</firstname>
+    <email address="brad.mckay@enron.com"/>
+      <email address="bmckay@enron.com"/>
+      <mailbox>mckay-b</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Semperger</lastname>
+    <firstname>Cara</firstname>
+    <email address="cara.semperger@enron.com"/>
+      <mailbox>semperger-c</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Clair</lastname>
+    <firstname>Carol</firstname>
+    <email address="carol.clair@enron.com"/>
+      <email address="carol.st.clair@enron.com"/>
+      <email address="carol.stclair@enron.com"/>
+      <mailbox>stclair-c</mailbox>
+      </employee>
+  <employee>
+    <lastname>Weldon</lastname>
+    <firstname>Charles</firstname>
+    <email address="charles.weldon@enron.com"/>
+      <email address="v.charles.weldon@enron.com"/>
+      <email address="v.weldon@enron.com"/>
+      <mailbox>weldon-c</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Germany</lastname>
+    <firstname>Chris</firstname>
+    <email address="chris.germany@enron.com"/>
+      <email address="chris_germany@enron.com"/>
+      <email address="c.germany@enron.com"/>
+      <mailbox>germany-c</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Dorland</lastname>
+    <firstname>Chris</firstname>
+    <email address="chris.dorland@enron.com"/>
+      <mailbox>dorland-c</mailbox>
+      </employee>
+  <employee>
+    <lastname>Stokley</lastname>
+    <firstname>Chris</firstname>
+    <email address="chris.stokley@enron.com"/>
+      <mailbox>stokley-c</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Richey</lastname>
+    <firstname>Cooper</firstname>
+    <email address="cooper.richey@enron.com"/>
+      <email address="crichey@enron.com"/>
+      <mailbox>richey-c</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Dean</lastname>
+    <firstname>Craig</firstname>
+    <email address="craig.dean@enron.com"/>
+      <mailbox>dean-c</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Hyvl</lastname>
+    <firstname>Dan</firstname>
+    <email address="dan.hyvl@enron.com"/>
+      <email address="dan.j.hyvl@enron.com"/>
+      <email address="dhyvl@enron.com"/>
+      <mailbox>hyvl-d</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Davis</lastname>
+    <firstname>Dana</firstname>
+    <email address="dana.davis@enron.com"/>
+      <email address="d..davis@enron.com"/>
+      <email address="dana_davis@enron.com"/>
+      <mailbox>davis-d</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>McCarty</lastname>
+    <firstname>Danny</firstname>
+    <email address="danny.mccarty@enron.com"/>
+      <mailbox>mccarty-d</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Farmer</lastname>
+    <firstname>Daren</firstname>
+    <email address="daren.j.farmer@enron.com"/>
+      <email address="daren.farmer@enron.com"/>
+      <email address="j..farmer@enron.com"/>
+      <mailbox>farmer-d</mailbox>
+      </employee>
+  <employee>
+    <lastname>Schoolcraft</lastname>
+    <firstname>Darrell</firstname>
+    <email address="darrell.schoolcraft@enron.com"/>
+      <mailbox>schoolcraft-d</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Giron</lastname>
+    <firstname>Darron</firstname>
+    <email address="c..giron@enron.com"/>
+      <email address="darron.giron@enron.com"/>
+      <email address="darron.c.giron@enron.com"/>
+      <mailbox>giron-d</mailbox>
+      </employee>
+  <employee category="CEO">
+    <lastname>Delainey</lastname>
+    <firstname>David</firstname>
+    <email address="david.w.delainey@enron.com"/>
+      <email address="david.delainey@enron.com"/>
+      <email address="w..delainey@enron.com"/>
+      <mailbox>delainey-d</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Perlingiere</lastname>
+    <firstname>Debra</firstname>
+    <email address="debra.perlingiere@enron.com"/>
+      <mailbox>perlingiere-d</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Scholtes</lastname>
+    <firstname>Diana</firstname>
+    <email address="diana.scholtes@enron.com"/>
+      <mailbox>scholtes-d</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Baughman</lastname>
+    <firstname>Don</firstname>
+    <email address="don.baughman@enron.com"/>
+      <email address="d@baughman.com"/>
+      <email address="don_baughman@enron.com"/>
+      <mailbox>baughman-d</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Gilbert-smith</lastname>
+    <firstname>Doug</firstname>
+    <email address="doug.gilbert-smith@enron.com"/>
+      <email address="gilbert-smith@enron.com"/>
+      <mailbox>gilbertsmith-d</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Fossum</lastname>
+    <firstname>Drew</firstname>
+    <email address="drew.fossum@enron.com"/>
+      <email address="drew_fossum@enron.com"/>
+      <mailbox>fossum-d</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Quigley</lastname>
+    <firstname>Dutch</firstname>
+    <email address="dutch.quigley@enron.com"/>
+      <mailbox>quigley-d</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Sager</lastname>
+    <firstname>Elizabeth</firstname>
+    <email address="elizabeth.sager@enron.com"/>
+      <email address="esager@enron.com"/>
+      <mailbox>sager-e</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Saibi</lastname>
+    <firstname>Eric</firstname>
+    <email address="eric.saibi@enron.com"/>
+      <email address="esaibi@enron.com"/>
+      <mailbox>saibi-e</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Bass</lastname>
+    <firstname>Eric</firstname>
+    <email address="eric.bass@enron.com"/>
+      <email address="ebass@enron.com"/>
+      <mailbox>bass-e</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Linder</lastname>
+    <firstname>Eric</firstname>
+    <email address="eric.linder@enron.com"/>
+      <email address="eric_linder@enron.com"/>
+      <mailbox>linder-e</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>McLaughlin</lastname>
+    <firstname>Errol</firstname>
+    <email address="errol.mclaughlin@enron.com"/>
+      <mailbox>mclaughlin-e</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Sturm</lastname>
+    <firstname>Fletcher</firstname>
+    <email address="fletcher.j.sturm@enron.com"/>
+      <email address="j..sturm@enron.com"/>
+      <email address="fletcher.sturm@enron.com"/>
+      <mailbox>sturm-f</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Ermis</lastname>
+    <firstname>Frank</firstname>
+    <email address="frank.ermis@enron.com"/>
+      <email address="fermis@enron.com"/>
+      <mailbox>ermis-f</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Solberg</lastname>
+    <firstname>Geir</firstname>
+    <email address="geir.solberg@enron.com"/>
+      <email address="gsolberg@enron.com"/>
+      <mailbox>solberg-g</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Storey</lastname>
+    <firstname>Geoff</firstname>
+    <email address="geoff.storey@enron.com"/>
+      <email address="gstorey@enron.com"/>
+      <mailbox>storey-g</mailbox>
+      </employee>
+  <employee>
+    <lastname>Nemec</lastname>
+    <firstname>Gerald</firstname>
+    <email address="gerald.nemec@enron.com"/>
+      <email address="gnemec@enron.com"/>
+      <mailbox>nemec-g</mailbox>
+      </employee>
+  <employee category="President">
+    <lastname>Whalley</lastname>
+    <firstname>Greg</firstname>
+    <email address="greg.whalley@enron.com"/>
+      <email address="gwhalley@enron.com"/>
+      <mailbox>whalley-g</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Arora</lastname>
+    <firstname>Harry</firstname>
+    <email address="harry.arora@enron.com"/>
+      <email address="harora@enron.com"/>
+      <mailbox>arora-h</mailbox>
+      </employee>
+  <employee>
+    <lastname>Whitt</lastname>
+    <firstname>Mark</firstname>
+    <email address="mark.whitt@enron.com"/>
+      <email address="mwhitt@enron.com"/>
+      <mailbox>whitt-m</mailbox>
+      </employee>
+  <employee category="Managing Director">
+    <lastname>Haedicke</lastname>
+    <firstname>Mark</firstname>
+    <email address="e..haedicke@enron.com"/>
+      <email address="mark.haedicke@enron.com"/>
+      <email address="mark.e.haedicke@enron.com"/>
+      <mailbox>haedicke-m</mailbox>
+      </employee>
+  <employee>
+    <lastname>McConnell</lastname>
+    <firstname>Mark</firstname>
+    <email address="mark.mcconnell@enron.com"/>
+      <email address="mark_mcconnell@enron.com"/>
+      <mailbox>mcconnell-m</mailbox>
+      </employee>
+  <employee category="Managing Director">
+    <lastname>Guzman</lastname>
+    <firstname>Mark</firstname>
+    <email address="mark.guzman@enron.com"/>
+      <mailbox>guzman-m</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Cuilla</lastname>
+    <firstname>Martin</firstname>
+    <email address="martin.cuilla@enron.com"/>
+      <email address="mcuilla@enron.com"/>
+      <email address="martin_cuilla@enron.com"/>
+      <mailbox>cuilla-m</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Fischer</lastname>
+    <firstname>Mary</firstname>
+    <email address="mary.fischer@enron.com"/>
+      <mailbox>fischer-m</mailbox>
+      </employee>
+  <employee>
+    <lastname>Hain</lastname>
+    <firstname>Mary</firstname>
+    <email address="mary.hain@enron.com"/>
+      <email address="mhain@enron.com"/>
+      <email address="mary_hain@enron.com"/>
+      <mailbox>hain-m</mailbox>
+      </employee>
+  <employee>
+    <lastname>Smith</lastname>
+    <firstname>Matt</firstname>
+    <email address="matt.smith@enron.com"/>
+      <email address="matthew.smith?@enron.com"/>
+      <mailbox>smith-m</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Motley</lastname>
+    <firstname>Matt</firstname>
+    <email address="matt.motley@enron.com"/>
+      <email address="mmotley@enron.com"/>
+      <mailbox>motley-m</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Lenhart</lastname>
+    <firstname>Matthew</firstname>
+    <email address="matthew.lenhart@enron.com"/>
+      <email address="mlenhart@enron.com"/>
+      <mailbox>lenhart-m</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Cash</lastname>
+    <firstname>Michelle</firstname>
+    <email address="michelle.cash@enron.com"/>
+      <email address="mcash@enron.com"/>
+      <email address="michelle_cash@enron.com"/>
+      <mailbox>cash-m</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Lokay</lastname>
+    <firstname>Michelle</firstname>
+    <email address="michelle.lokay@enron.com"/>
+      <email address="michele.lokay@enron.com"/>
+      <email address="mlokay@enron.com"/>
+      <mailbox>lokay-m</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Grigsby</lastname>
+    <firstname>Mike</firstname>
+    <email address="mike.grigsby@enron.com"/>
+      <mailbox>grigsby-m</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Maggi</lastname>
+    <firstname>Mike</firstname>
+    <email address="mike.maggi@enron.com"/>
+      <email address="mmaggi@enron.com"/>
+      <mailbox>maggi-m</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Carson</lastname>
+    <firstname>Mike</firstname>
+    <email address="mike.carson@enron.com"/>
+      <email address="mcarson@enron.com"/>
+      <mailbox>carson-m</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Swerzbin</lastname>
+    <firstname>Mike</firstname>
+    <email address="mike.swerzbin@enron.com"/>
+      <mailbox>swerzbin-m</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Causholli</lastname>
+    <firstname>Monika</firstname>
+    <email address="monika.causholli@enron.com"/>
+      <mailbox>causholli-m</mailbox>
+      </employee>
+  <employee>
+    <lastname>Sanchez</lastname>
+    <firstname>Monique</firstname>
+    <email address="monique.sanchez@enron.com"/>
+      <mailbox>sanchez-m</mailbox>
+      </employee>
+  <employee>
+    <lastname>Mims</lastname>
+    <firstname>Patrice</firstname>
+    <email address="patrice.l.mims@enron.com"/>
+      <email address="l..mims@enron.com"/>
+      <email address="partice.mims@enron.com"/>
+      <mailbox>mims-thurston-p</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Lucci</lastname>
+    <firstname>Paul</firstname>
+    <email address="paul.lucci@enron.com"/>
+      <email address="t..lucci@enron.com"/>
+      <email address="plucci@enron.com"/>
+      <mailbox>lucci-p</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Barbo</lastname>
+    <firstname>Paul</firstname>
+    <email address="paul.y barbo@enron.com"/>
+      <email address="barbo@enron.com"/>
+      <email address="pybarbo@enron.com"/>
+      <mailbox>ybarbo-p</mailbox>
+      </employee>
+  <employee>
+    <lastname>Thomas</lastname>
+    <firstname>Paul</firstname>
+    <email address="paul.d.thomas@enron.com"/>
+      <email address="d..thomas@enron.com"/>
+      <email address="paul.thomas@enron.com"/>
+      <mailbox>thomas-p</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Keavey</lastname>
+    <firstname>Peter</firstname>
+    <email address="peter.keavey@enron.com"/>
+      <email address="f..keavey@enron.com"/>
+      <email address="pkeavey@enron.com"/>
+      <email address="peter.f.keavey@enron.com"/>
+      <mailbox>keavey-p</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Allen</lastname>
+    <firstname>Phillip</firstname>
+    <email address="phillip.k.ellen@enron.com"/>
+      <email address="phillip.allen@enron.com"/>
+      <email address="k..allen@enron.com"/>
+      <mailbox>allen-p</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Platter</lastname>
+    <firstname>Phillip</firstname>
+    <email address="phillip.platter@enron.com"/>
+      <mailbox>platter-p</mailbox>
+      </employee>
+  <employee>
+    <lastname>Love</lastname>
+    <firstname>Phillip</firstname>
+    <email address="phillip.m.love@enron.com"/>
+      <email address="m..love@enron.com"/>
+      <email address="phillip.love@enron.com"/>
+      <mailbox>love-p</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Gay</lastname>
+    <firstname>Randall</firstname>
+    <email address="l..gay@enron.com"/>
+      <email address="randall.gay@enron.com"/>
+      <email address="randall.l.gay@enron.com"/>
+      <mailbox>gay-r</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Ring</lastname>
+    <firstname>Richard</firstname>
+    <email address="richard.ring@enron.com"/>
+      <mailbox>ring-r</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Sanders</lastname>
+    <firstname>Richard</firstname>
+    <email address="richard.b.sanders@enron.com"/>
+      <email address="b..sanders@enron.com"/>
+      <email address="richard.sanders@enron.com"/>
+      <mailbox>sanders-r</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Shapiro</lastname>
+    <firstname>Richard</firstname>
+    <email address="richard.shapiro@enron.com"/>
+      <mailbox>shapiro-r</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Buy</lastname>
+    <firstname>Rick</firstname>
+    <email address="rick.buy@enron.com"/>
+      <mailbox>buy-r</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Badeer</lastname>
+    <firstname>Robert</firstname>
+    <email address="robert.badeer@enron.com"/>
+      <email address="rbadeer@enron.com"/>
+      <mailbox>badeer-r</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Benson</lastname>
+    <firstname>Robert</firstname>
+    <email address="robert.benson@enron.com"/>
+      <email address="r.benson@enron.com"/>
+      <email address="rbenson@enron.com"/>
+      <mailbox>benson-r</mailbox>
+      </employee>
+  <employee>
+    <lastname>Rodrigue</lastname>
+    <firstname>Robin</firstname>
+    <email address="robin.rodrigue@enron.com"/>
+      <mailbox>rodrique-r</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Hayslett</lastname>
+    <firstname>Rod</firstname>
+    <email address="rod.hayslett@enron.com"/>
+      <email address="rod_hayslett@enron.com"/>
+      <mailbox>hayslett-r</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Slinger</lastname>
+    <firstname>Ryan</firstname>
+    <email address="ryan.slinger@enron.com"/>
+      <mailbox>slinger-r</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Beck</lastname>
+    <firstname>Sally</firstname>
+    <email address="sally.beck@enron.com"/>
+      <email address="sally_beck@enron.com"/>
+      <mailbox>beck-s</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Brawner</lastname>
+    <firstname>Sandra</firstname>
+    <email address="sandra.f.brawner@enron.com"/>
+      <email address="sandra.brawner@enron.com"/>
+      <email address="f..brawner@enron.com"/>
+      <mailbox>brawner-s</mailbox>
+      </employee>
+  <employee>
+    <lastname>Shackleton</lastname>
+    <firstname>Sara</firstname>
+    <email address="sara.shackleton@enron.com"/>
+      <email address="sara_shackleton@enron.com"/>
+      <mailbox>shackleton-s</mailbox>
+      </employee>
+  <employee>
+    <lastname>Hendrickson</lastname>
+    <firstname>Scott</firstname>
+    <email address="scott.hendrickson@enron.com"/>
+      <email address="scott . hendrikcson@enron.com"/>
+      <mailbox>hendrickson-s</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Neal</lastname>
+    <firstname>Scott</firstname>
+    <email address="scott.neal@enron.com"/>
+      <mailbox>neal-s</mailbox>
+      </employee>
+  <employee category="Director">
+    <lastname>Crandall</lastname>
+    <firstname>Sean</firstname>
+    <email address="sean.crandall@enron.com"/>
+      <email address="scrandall@enron.com"/>
+      <mailbox>crandell-s</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Corman</lastname>
+    <firstname>Shelley</firstname>
+    <email address="shelley.corman@enron.com"/>
+      <email address="scorman@enron.com"/>
+      <email address="shelley_corman@enron.com"/>
+      <mailbox>corman-s</mailbox>
+      </employee>
+  <employee>
+    <lastname>White</lastname>
+    <firstname>Stacey</firstname>
+    <email address="stacey.w.white@enron.com"/>
+      <email address="w..white@enron.com"/>
+      <email address="stacey.white@enron.com"/>
+      <mailbox>white-s</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Dickson</lastname>
+    <firstname>Stacy</firstname>
+    <email address="stacy.dickson@enron.com"/>
+      <email address="e..dickson@enron.com"/>
+      <email address="stacy.e.dickson@enron.com"/>
+      <mailbox>dickson-s</mailbox>
+      </employee>
+  <employee category="President">
+    <lastname>Horton</lastname>
+    <firstname>Stanley</firstname>
+    <email address="stanley.horton@enron.com"/>
+      <email address="stanley_horton@enron.com"/>
+      <mailbox>horton-s</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Panus</lastname>
+    <firstname>Stephanie</firstname>
+    <email address="stephanie.panus@enron.com"/>
+      <mailbox>panus-s</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Kean</lastname>
+    <firstname>Steven</firstname>
+    <email address="steven.j.kean@enron.com"/>
+      <email address="steven.kean@enron.com"/>
+      <email address="skean@enron.com"/>
+      <email address="j..kean@enron.com"/>
+      <mailbox>kean-s</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Harris</lastname>
+    <firstname>Steven</firstname>
+    <email address="steven.harris@enron.com"/>
+      <mailbox>harris-s</mailbox>
+      </employee>
+  <employee>
+    <lastname>Merris</lastname>
+    <firstname>Steven</firstname>
+    <email address="steven.merris@enron.com"/>
+      <email address="steven.merriss@enron.com"/>
+      <mailbox>merriss-s</mailbox>
+      </employee>
+  <employee>
+    <lastname>South</lastname>
+    <firstname>Steven</firstname>
+    <email address="steven.p.south@enron.com"/>
+      <email address="steven.south@enron.com"/>
+      <email address="p..south@enron.com"/>
+      <mailbox>south-s</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Pereira</lastname>
+    <firstname>Susan</firstname>
+    <email address="susan.w.pereira@enron.com"/>
+      <email address="w..pereira@enron.com"/>
+      <email address="susan.peireira@enron.com"/>
+      <mailbox>pereira-s</mailbox>
+      </employee>
+  <employee>
+    <lastname>Scott</lastname>
+    <firstname>Susan</firstname>
+    <email address="susan.scott@enron.com"/>
+      <email address="m..scott@enron.com"/>
+      <email address="susan.m.scott@enron.com"/>
+      <mailbox>scott-s</mailbox>
+      </employee>
+  <employee>
+    <lastname>Bailey</lastname>
+    <firstname>Susan</firstname>
+    <email address="susan.bailey@enron.com"/>
+      <mailbox>bailey-s</mailbox>
+      </employee>
+  <employee>
+    <lastname>Jones</lastname>
+    <firstname>Tana</firstname>
+    <email address="tana.jones@enron.com"/>
+      <email address="tana_jones@enron.com"/>
+      <mailbox>jones-t</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Lokey</lastname>
+    <firstname>Teb</firstname>
+    <email address="teb.lokey@enron.com"/>
+      <email address="teb_lokey@enron.com"/>
+      <email address="tlokey@enron.com"/>
+      <mailbox>lokey-t</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Staab</lastname>
+    <firstname>Theresa</firstname>
+    <email address="theresa.staab@enron.com"/>
+      <email address="theresa_staab@enron.com"/>
+      <email address="tstaab@enron.com"/>
+      <mailbox>staab-t</mailbox>
+      </employee>
+  <employee category="VicePresident">
+    <lastname>Martin</lastname>
+    <firstname>Thomas</firstname>
+    <email address="thomas.a.martin@enron.com"/>
+      <email address="thomas.martin@enron.com"/>
+      <email address="a..martin@enron.com"/>
+      <mailbox>martin-t</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Donohoe</lastname>
+    <firstname>Tom</firstname>
+    <email address="tom.donohoe@enron.com"/>
+      <mailbox>donohoe-t</mailbox>
+      </employee>
+  <employee category="Trader">
+    <lastname>Kuykendall</lastname>
+    <firstname>Tori</firstname>
+    <email address="tori.kuykendall@enron.com"/>
+      <mailbox>kuykendall-t</mailbox>
+      </employee>
+  <employee category="Employee">
+    <lastname>Geaccone</lastname>
+    <firstname>Tracy</firstname>
+    <email address="tracy.geaccone@enron.com"/>
+      <email address="tracy_geaconne@enron.com"/>
+      <mailbox>geaccone-t</mailbox>
+      </employee>
+  <employee category="Manager">
+    <lastname>Kaminski</lastname>
+    <firstname>Vince</firstname>
+    <email address="j.kaminski@enron.com"/>
+      <email address="vince.kaminski@enron.com"/>
+      <email address="kaminski@enron.com"/>
+      <mailbox>kaminski-v</mailbox>
+      </employee>
+  <employee>
+    <lastname>Pimenov</lastname>
+    <firstname>Vladi</firstname>
+    <email address="vladi.pimenov@enron.com"/>
+      <email address="vpimenov@enron.com"/>
+      <mailbox>pimenov-v</mailbox>
+      </employee>
+</employees>
+

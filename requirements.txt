@@ -1,0 +1,5 @@
+tqdm==4.50.2
+numpy==1.19.2
+dj_database_url==0.5.0
+Django==3.2.3
+unipath==1.1

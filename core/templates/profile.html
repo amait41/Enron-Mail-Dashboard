@@ -1,0 +1,169 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Profile {% endblock title %}
+
+{% block content %}
+
+    <!-- Header -->
+    <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
+      <div class="container-fluid">
+        <div class="header-body">
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- Settings -->
+    <div class="container-fluid mt--7">
+
+      <div class="row">
+        <div class="col">
+          <div class="card bg-secondary shadow">
+            <form action="/profile" method="get">
+              <div class="card-header bg-white border-0">
+                <div class="row align-items-center">
+                  <div class="col-8">
+                    <h3 class="mb-0">Settings</h3>
+                  </div>
+                  <div class="col-4 text-right">
+                    <input type="submit" class="btn btn-sm btn-primary ml-4" value="Refresh">
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="pl-lg-0">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <div class="form-group">
+                        <label class="form-control-label" for="name">Employee name</label>
+                        <input type="text" id="name" class="form-control form-control-alternative"
+                        name="name" value="{{name}}">
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="form-group">
+                        <label class="form-control-label" for="name">Average response time (1/0)</label>
+                        <input type="text" id="response_time" class="form-control form-control-alternative"
+                        name="response_time" value="{{response_time}}">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      {% if code == -1 %}
+      <div class="row mt-4">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <h3 class="mt-0">Error</h3>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-items-center table-flush">
+                <tbody>
+                  <tr> <td>'{{name}}' is unknown in the database.</td> </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if code == -2 %}
+      <div class="row mt-4">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <h3 class="mt-0">Error</h3>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-items-center table-flush">
+                <tbody>
+                  <tr> <td>'{{name}}' is not an Enron employee.</td> </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if code == 1 %}
+      <div class="row mt-4">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <h3 class="mt-0">Profile of {{ name }}</h3>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-items-center table-flush">
+                <thead>
+                  
+                </thead>
+                <tbody>
+                  <tr> <td>Category: {{ category }}</td> </tr>
+                  <tr> <td>Average number of emails sent per day: {{ average_sent}}</td> </tr>
+                  <tr> <td>Average number of emails received per day: {{ average_received}}</td> </tr>
+                  <tr> <td>Average response time: {{ average_response_time }}</td> </tr>
+                  <tr> <td>Intern / Extern email ratio: {{ number_of_internal_mails.count  }} / {{ number_of_external_mails.count  }}</td> </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <h3 class="mt-0">Internal contacts</h3>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">In Enron</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for c in contacts %}
+                  <tr>
+                    <th scope="row">
+                      <div class="media align-items-center media-body">
+                          <span class="mb-0 text-sm">{{ c.name }}</span>
+                      </div>
+                    </th>
+                    <td> {{ c.category }} </td>
+                    <td> {{ c.in_enron }} </td>
+                    <td class="text-right">
+                      <div class="dropdown">
+                        <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                          <a class="dropdown-item" href="profile?name={{ c.name }}">View profile</a>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% include "includes/footer.html" %}
+    </div>
+
+{% endblock content %}

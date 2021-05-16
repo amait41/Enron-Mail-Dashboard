@@ -1,0 +1,218 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Employees {% endblock title %}
+
+{% block content %}
+
+    <!-- Header -->
+    <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
+      <div class="container-fluid">
+        <div class="header-body">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Settings -->
+    <div class="container-fluid mt--7">
+      <!-- Settings -->
+      <div class="row">
+        <div class="col">
+          <div class="card bg-secondary shadow">
+            <form action="/employees" method="get">
+              <div class="card-header bg-white border-0">
+                <div class="row align-items-center">
+                  <div class="col-8">
+                    <h3 class="mb-0">Settings</h3>
+                  </div>
+                  <div class="col-4 text-right">
+                    <input type="submit" class="btn btn-sm btn-primary ml-4" value="Refresh">
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="pl-lg-0">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="form-group">
+                        <label class="form-control-label" for="start_date">Start date</label>
+                        <input type="date" id="start_date" class="form-control form-control-alternative"
+                        name="start_date" value="{{ start_date }}">
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="form-group">
+                        <label class="form-control-label" for="end_date">End date</label>
+                        <input type="date" id="end_date" class="form-control form-control-alternative" name="end_date" value="{{ end_date }}">
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="form-group">
+                        <label class="form-control-label" for="lines"># lines</label>
+                        <input type="text" id="lines" class="form-control form-control-alternative" name="lines" value="{{ lines }}">
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="form-group">
+                        <label class="form-control-label" for="low_thr">Low thr.</label>
+                        <input type="text" id="low_thr" class="form-control form-control-alternative" name="low_thr" 
+                        value="{{ low_thr }}" placeholder="">
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="form-group">
+                        <label class="form-control-label" for="high_thr">High thr.</label>
+                        <input type="text" id="high_thr" class="form-control form-control-alternative" name="high_thr" 
+                        value="{{ high_thr }}" placeholder="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Tables 1 -->
+      <div class="row mt-4">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <h3 class="mt-0">Communicating the most internally</h3>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Category</th>
+                    <th scope="col"># of emails</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for elm in mci %}
+                  <tr>
+                    <th scope="row">
+                      <div class="media align-items-center media-body">
+                          <span class="mb-0 text-sm">{{ elm.name }}</span>
+                      </div>
+                    </th>
+                    <td> {{ elm.category }} </td>
+                    <td> {{ elm.c }} </td>
+                    <td class="text-right">
+                      <div class="dropdown">
+                        <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                          <a class="dropdown-item" href="profile?name={{ elm.name }}">View profile</a>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tables 2 -->
+      <div class="row mt-4">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <h3 class="mt-0">The most likely to respond</h3>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Responses sent</th>
+                    <th scope="col">Emails received</th>
+                    <th scope="col">Ratio</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for elm in tqr %}
+                  <tr>
+                    <th scope="row">
+                      <div class="media align-items-center media-body">
+                          <span class="mb-0 text-sm">{{ elm.name }}</span>
+                      </div>
+                    </th>
+                    <td> {{ elm.category }} </td>
+                    <td> {{ elm.sent_reply_cnt }} </td>
+                    <td> {{ elm.received_cnt }} </td>
+                    <td> {{ elm.ratio }}% </td>
+                    <td class="text-right">
+                      <div class="dropdown">
+                        <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                          <a class="dropdown-item" href="profile?name={{ elm.name }}">View profile</a>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tables 3 -->
+      <div class="row mt-4">
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <h3 class="mb-0">Biggest information broadcasters</h3>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Category</th>
+                    <th scope="col"># unanswered emails </th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for elm in gib %}
+                  <tr>
+                    <th scope="row">
+                      <div class="media align-items-center media-body">
+                          <span class="mb-0 text-sm">{{ elm.name }}</span>
+                      </div>
+                    </th>
+                    <td> {{ elm.category }} </td>
+                    <td> {{ elm.diff }} </td>
+                    <td class="text-right">
+                      <div class="dropdown">
+                        <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                          <a class="dropdown-item" href="profile?name={{ elm.name }}">View profile</a>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% include "includes/footer.html" %}
+    </div>
+
+{% endblock content %}
